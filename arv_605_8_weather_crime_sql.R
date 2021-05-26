@@ -50,7 +50,7 @@ crime.tab.sql <- fetch(res, n = -1)
 dbClearResult(res)
 plot(count~gross,data=crime.tab.sql)
 
-#The plot shows an increase in crime between income levels 1 and 2; however, the as income increases, the crime count decreases 
+#The plot shows an increase in crime between income levels 1 and 2; however, as income increases, the crime count decreases 
 
 ##############################
 
